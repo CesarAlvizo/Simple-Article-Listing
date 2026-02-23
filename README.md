@@ -19,8 +19,8 @@ Pagina web que permite mostrar un listado de articulos.
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: 
-Deploy:
+Repositorio en GitHub: https://github.com/CesarAlvizo/Simple-Article-Listing.git
+Deploy: https://cesaralvizo.github.io/Simple-Article-Listing/
 ---
 
 ## 📝 Reflexión
