@@ -1,0 +1,94 @@
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Outfit", sans-serif;
+   font-style: normal;
+ }
+
+ header {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 30px;
+ }
+
+ body {
+   height: 100vh;
+ }
+
+
+ #title {
+   text-align: center;
+   font-size: 2.5em;
+   font-weight: 600;
+   width: 650px;
+ }
+
+ #seperator {
+   padding-top: 30px;
+ }
+
+ .article {
+   width: 55%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 30px;
+   padding: 2em;
+   margin: auto;
+   width: 700px;
+
+ }
+
+ .article-img {
+   border-radius: 10px;
+ }
+
+
+
+ .date {
+   display: block;
+   margin-top: 15px;
+   font-weight: normal;
+   font-size: 0.7em;
+ }
+
+
+ .author-info {
+   font-size: 14px;
+   text-align: center;
+   margin-top: 16px;
+   color: rgb(55, 65, 81);
+ }
+
+ .author-info a {
+   text-decoration: none;
+ }
+
+ @media screen and (max-width: 768px) {
+   header {
+     width: 90%;
+   }
+
+   #title {
+     font-size: 2em;
+   }
+
+   .article {
+     width: 100%;
+     display: block;
+   }
+
+   .article-img {
+     margin-bottom: 20px;
+   }
+
+   .article-title {
+     margin-left: 0;
+   }
+ }
